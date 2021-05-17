@@ -37,3 +37,9 @@ Que las deja preparadas para ser usada por MockedTests.java
 Con esta función se determina que hay que usar el formato headless <- setHeadlessDriver();
 this.driver = new ChromeDriver(new ChromeOptions().setHeadless(true));
 
+## CICD.sh file
+Este archivo va a chequear (si se usa el modo hidden) si hubo errores en la ejecución. 
+Dependiendo de eso va generar un message y también un código de salida del programa
+0 -> OK
+1 -> Fail
+Eso se realiza a través del comando exit en el programa (exit 0 ; exit 1) y luego se puede tomar con otro programa (o consola) usando $?
