@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-05-17T13:16:01Z" name="Default Suite" finished-at="2021-05-17T13:16:05Z" duration-ms="3221">
+  <suite started-at="2021-05-17T13:43:42Z" name="Default Suite" finished-at="2021-05-17T13:43:44Z" duration-ms="2052">
     <groups>
     </groups>
-    <test started-at="2021-05-17T13:16:01Z" name="users-suite" finished-at="2021-05-17T13:16:05Z" duration-ms="3221">
+    <test started-at="2021-05-17T13:43:42Z" name="users-suite" finished-at="2021-05-17T13:43:44Z" duration-ms="2052">
       <class name="MockedTests">
-        <test-method is-config="true" signature="setup()[pri:0, instance:MockedTests@4d1b0d2a]" started-at="2021-05-17T10:16:01Z" name="setup" finished-at="2021-05-17T10:16:01Z" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:MockedTests@4d1b0d2a]" started-at="2021-05-17T10:43:42Z" name="setup" finished-at="2021-05-17T10:43:42Z" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="instantiateDriver()[pri:0, instance:MockedTests@4d1b0d2a]" started-at="2021-05-17T10:16:01Z" name="instantiateDriver" finished-at="2021-05-17T10:16:03Z" duration-ms="1175" status="PASS">
+        <test-method is-config="true" signature="instantiateDriver()[pri:0, instance:MockedTests@4d1b0d2a]" started-at="2021-05-17T10:43:42Z" name="instantiateDriver" finished-at="2021-05-17T10:43:43Z" duration-ms="511" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- instantiateDriver -->
-        <test-method signature="someTest()[pri:5, instance:MockedTests@4d1b0d2a]" started-at="2021-05-17T10:16:03Z" name="someTest" finished-at="2021-05-17T10:16:04Z" duration-ms="1419" status="FAIL">
+        <test-method signature="someTest()[pri:5, instance:MockedTests@4d1b0d2a]" started-at="2021-05-17T10:43:43Z" name="someTest" finished-at="2021-05-17T10:43:43Z" duration-ms="701" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -62,23 +62,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- someTest -->
-        <test-method signature="someOtherTest()[pri:10, instance:MockedTests@4d1b0d2a]" started-at="2021-05-17T10:16:04Z" name="someOtherTest" finished-at="2021-05-17T10:16:04Z" duration-ms="153" status="PASS">
+        <test-method signature="someOtherTest()[pri:10, instance:MockedTests@4d1b0d2a]" started-at="2021-05-17T10:43:43Z" name="someOtherTest" finished-at="2021-05-17T10:43:43Z" duration-ms="151" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- someOtherTest -->
-        <test-method signature="yetSomeOtherTest()[pri:15, instance:MockedTests@4d1b0d2a]" started-at="2021-05-17T10:16:04Z" name="yetSomeOtherTest" finished-at="2021-05-17T10:16:04Z" duration-ms="153" status="PASS">
+        <test-method signature="yetSomeOtherTest()[pri:15, instance:MockedTests@4d1b0d2a]" started-at="2021-05-17T10:43:43Z" name="yetSomeOtherTest" finished-at="2021-05-17T10:43:44Z" duration-ms="163" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- yetSomeOtherTest -->
-        <test-method signature="almostTheLastTest()[pri:20, instance:MockedTests@4d1b0d2a]" started-at="2021-05-17T10:16:04Z" name="almostTheLastTest" finished-at="2021-05-17T10:16:05Z" duration-ms="156" status="PASS">
+        <test-method signature="almostTheLastTest()[pri:20, instance:MockedTests@4d1b0d2a]" started-at="2021-05-17T10:43:44Z" name="almostTheLastTest" finished-at="2021-05-17T10:43:44Z" duration-ms="251" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- almostTheLastTest -->
-        <test-method signature="theLastTest()[pri:25, instance:MockedTests@4d1b0d2a]" started-at="2021-05-17T10:16:05Z" name="theLastTest" finished-at="2021-05-17T10:16:05Z" duration-ms="156" status="PASS">
+        <test-method signature="theLastTest()[pri:25, instance:MockedTests@4d1b0d2a]" started-at="2021-05-17T10:43:44Z" name="theLastTest" finished-at="2021-05-17T10:43:44Z" duration-ms="260" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- theLastTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:MockedTests@4d1b0d2a]" started-at="2021-05-17T10:16:05Z" name="tearDown" finished-at="2021-05-17T10:16:05Z" duration-ms="61" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MockedTests@4d1b0d2a]" started-at="2021-05-17T10:43:44Z" name="tearDown" finished-at="2021-05-17T10:43:44Z" duration-ms="58" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

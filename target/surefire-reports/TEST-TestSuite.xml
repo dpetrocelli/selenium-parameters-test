@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="3.469" tests="5" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="2.333" tests="5" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="14"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-14-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/david/Documents/CloudHesive/selenium-parameters-test/target/surefire/surefirebooter3611554709357571965.jar /home/david/Documents/CloudHesive/selenium-parameters-test/target/surefire 2021-05-17T10-16-01_535-jvmRun1 surefire111696325076516741tmp surefire_09596578179174365308tmp"/>
+    <property name="sun.java.command" value="/home/david/Documents/CloudHesive/selenium-parameters-test/target/surefire/surefirebooter11341552093835595012.jar /home/david/Documents/CloudHesive/selenium-parameters-test/target/surefire 2021-05-17T10-43-42_074-jvmRun1 surefire519570569284459877tmp surefire_05510155652726148279tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/david/Documents/CloudHesive/selenium-parameters-test/target/test-classes:/home/david/Documents/CloudHesive/selenium-parameters-test/target/classes:/home/david/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/home/david/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/home/david/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/david/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/david/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/home/david/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/david/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/home/david/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/david/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/david/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/david/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/home/david/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/home/david/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/home/david/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/home/david/.m2/repository/org/testng/testng/6.10/testng-6.10.jar:/home/david/.m2/repository/com/beust/jcommander/1.48/jcommander-1.48.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -27,7 +27,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/home/david/Documents/CloudHesive/selenium-parameters-test/target/surefire/surefirebooter3611554709357571965.jar"/>
+    <property name="surefire.real.class.path" value="/home/david/Documents/CloudHesive/selenium-parameters-test/target/surefire/surefirebooter11341552093835595012.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="14.0.2+12-Ubuntu-120.04"/>
     <property name="user.name" value="david"/>
@@ -50,20 +50,20 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="58.0"/>
   </properties>
-  <testcase name="someTest" classname="MockedTests" time="1.422">
+  <testcase name="someTest" classname="MockedTests" time="0.709">
     <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
 	at MockedTests.someTest(MockedTests.java:70)
 </failure>
-    <system-err><![CDATA[Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 19515
+    <system-err><![CDATA[Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 1211
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-May 17, 2021 10:16:03 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 17, 2021 10:43:43 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="someOtherTest" classname="MockedTests" time="0.152"/>
-  <testcase name="yetSomeOtherTest" classname="MockedTests" time="0.153"/>
-  <testcase name="almostTheLastTest" classname="MockedTests" time="0.155"/>
-  <testcase name="theLastTest" classname="MockedTests" time="0.156"/>
+  <testcase name="someOtherTest" classname="MockedTests" time="0.15"/>
+  <testcase name="yetSomeOtherTest" classname="MockedTests" time="0.163"/>
+  <testcase name="almostTheLastTest" classname="MockedTests" time="0.251"/>
+  <testcase name="theLastTest" classname="MockedTests" time="0.26"/>
 </testsuite>
