@@ -10,14 +10,13 @@ Las opciones de ejecución son a través de los siguientes dos modelos:
 # Configuraciones
 
 ## Configure Application Properties file
---------------------------------------
 ```java
         # How many tests (up to 5) will fail?
         tests.fail=1 # -> 0 para que todo corra ; >0 falla 
         # Should selenium display the browser?
         display.browser=true # -> true con GUI ; false para CICD 
         destination.url=https://example.org # -> URL a pegarle (básico)
---------------------------------------
+
 ```
 ## La configuración del XML para que le diga a Selenium que clase corre selenium es testing.xml 
 ```xml
