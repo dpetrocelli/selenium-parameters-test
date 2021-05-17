@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test name="users-suite(failed)">
+    <classes>
+      <class name="MockedTests">
+        <methods>
+          <include name="someTest"/>
+          <include name="instantiateDriver"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- MockedTests -->
+    </classes>
+  </test> <!-- users-suite(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
