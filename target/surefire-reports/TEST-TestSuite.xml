@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="9.902" tests="5" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="3.469" tests="5" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="14"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/home/david/Desktop/selenium-testing-mock/target/test-classes:/home/david/Desktop/selenium-testing-mock/target/classes:/home/david/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/home/david/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/home/david/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/david/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/david/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/home/david/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/david/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/home/david/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/david/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/david/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/david/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/home/david/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/home/david/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/home/david/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/home/david/.m2/repository/org/testng/testng/6.10/testng-6.10.jar:/home/david/.m2/repository/com/beust/jcommander/1.48/jcommander-1.48.jar:"/>
+    <property name="java.class.path" value="/home/david/Documents/CloudHesive/selenium-parameters-test/target/test-classes:/home/david/Documents/CloudHesive/selenium-parameters-test/target/classes:/home/david/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/home/david/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/home/david/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/david/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/david/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/home/david/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/david/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/home/david/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/david/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/david/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/david/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/home/david/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/home/david/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/home/david/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/home/david/.m2/repository/org/testng/testng/6.10/testng-6.10.jar:/home/david/.m2/repository/com/beust/jcommander/1.48/jcommander-1.48.jar:"/>
     <property name="java.vm.vendor" value="Private Build"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="Unknown"/>
@@ -12,9 +12,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-14-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/david/Desktop/selenium-testing-mock/target/surefire/surefirebooter10907903207830715874.jar /home/david/Desktop/selenium-testing-mock/target/surefire 2021-05-16T18-59-30_405-jvmRun1 surefire7997710883961051153tmp surefire_07653457112443031325tmp"/>
+    <property name="sun.java.command" value="/home/david/Documents/CloudHesive/selenium-parameters-test/target/surefire/surefirebooter3611554709357571965.jar /home/david/Documents/CloudHesive/selenium-parameters-test/target/surefire 2021-05-17T10-16-01_535-jvmRun1 surefire111696325076516741tmp surefire_09596578179174365308tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/home/david/Desktop/selenium-testing-mock/target/test-classes:/home/david/Desktop/selenium-testing-mock/target/classes:/home/david/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/home/david/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/home/david/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/david/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/david/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/home/david/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/david/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/home/david/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/david/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/david/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/david/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/home/david/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/home/david/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/home/david/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/home/david/.m2/repository/org/testng/testng/6.10/testng-6.10.jar:/home/david/.m2/repository/com/beust/jcommander/1.48/jcommander-1.48.jar:"/>
+    <property name="surefire.test.class.path" value="/home/david/Documents/CloudHesive/selenium-parameters-test/target/test-classes:/home/david/Documents/CloudHesive/selenium-parameters-test/target/classes:/home/david/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/home/david/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/home/david/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/david/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/david/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/home/david/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/david/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/home/david/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/david/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/david/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/david/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/home/david/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/home/david/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/home/david/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/home/david/.m2/repository/org/testng/testng/6.10/testng-6.10.jar:/home/david/.m2/repository/com/beust/jcommander/1.48/jcommander-1.48.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/david"/>
     <property name="user.language" value="en"/>
@@ -22,12 +22,12 @@
     <property name="java.version.date" value="2020-07-14"/>
     <property name="java.home" value="/usr/lib/jvm/java-14-openjdk-amd64"/>
     <property name="file.separator" value="/"/>
-    <property name="basedir" value="/home/david/Desktop/selenium-testing-mock"/>
-    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="basedir" value="/home/david/Documents/CloudHesive/selenium-parameters-test"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/home/david/Desktop/selenium-testing-mock/target/surefire/surefirebooter10907903207830715874.jar"/>
+    <property name="surefire.real.class.path" value="/home/david/Documents/CloudHesive/selenium-parameters-test/target/surefire/surefirebooter3611554709357571965.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="14.0.2+12-Ubuntu-120.04"/>
     <property name="user.name" value="david"/>
@@ -40,7 +40,7 @@
     <property name="java.vendor.url.bug" value="Unknown"/>
     <property name="java.io.tmpdir" value="/tmp"/>
     <property name="java.version" value="14.0.2"/>
-    <property name="user.dir" value="/home/david/Desktop/selenium-testing-mock"/>
+    <property name="user.dir" value="/home/david/Documents/CloudHesive/selenium-parameters-test"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
@@ -50,21 +50,20 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="58.0"/>
   </properties>
-  <testcase name="someTest" classname="MockedTests" time="3.303">
+  <testcase name="someTest" classname="MockedTests" time="1.422">
     <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
-	at MockedTests.someTest(MockedTests.java:68)
+	at MockedTests.someTest(MockedTests.java:70)
 </failure>
-    <system-err><![CDATA[Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 1257
+    <system-err><![CDATA[Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 19515
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1621202372,951][WARNING]: This version of ChromeDriver has not been tested with Chrome version 90.
-May 16, 2021 6:59:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 17, 2021 10:16:03 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="someOtherTest" classname="MockedTests" time="0.513"/>
-  <testcase name="yetSomeOtherTest" classname="MockedTests" time="0.179"/>
-  <testcase name="almostTheLastTest" classname="MockedTests" time="0.178"/>
-  <testcase name="theLastTest" classname="MockedTests" time="0.182"/>
+  <testcase name="someOtherTest" classname="MockedTests" time="0.152"/>
+  <testcase name="yetSomeOtherTest" classname="MockedTests" time="0.153"/>
+  <testcase name="almostTheLastTest" classname="MockedTests" time="0.155"/>
+  <testcase name="theLastTest" classname="MockedTests" time="0.156"/>
 </testsuite>

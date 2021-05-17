@@ -7,8 +7,9 @@ import utils.PropertiesReader;
 
 public class MockedTests {
 
-    public static final String URL = "https://example.org";
+    //public static final String URL = "https://example.org";
     private Integer failingTests;
+    private String URL;
 
     private Integer alreadyFailed;
     private WebDriver driver;
@@ -20,6 +21,7 @@ public class MockedTests {
         try {
             this.failingTests = Integer.valueOf(propsReader.getProps().getProperty("tests.fail"));
             displayBrowser = Boolean.parseBoolean(propsReader.getProps().getProperty("display.browser"));
+            this.URL = propsReader.getProps().getProperty("destination.url");
         }
         catch (Exception e) {
             this.failingTests = 0;
